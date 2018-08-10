@@ -6,22 +6,22 @@ This project is for using the Multitech Conduit GPIO Accessory Card on mLinux.
 Install
 #########
 
+With `pip`
+"""""""""""
+
+.. code-block::
+
+    pip install git+https://github.com/exosite/lib_exoedge_mtcdt_gpio_python.git
+
 From Source
 """"""""""""
+
+Clone this repo and execute the following commands:
 
 .. code-block::
 
     pip install -r requirements.txt
     python setup.py install
-
-From PyPi
-""""""""""""
-
-The wheel for this hasn't been published yet.
-
-.. code-block::
-
-    pip install exoedge_mtcdt_gpio
 
 ExoEdge Configuration
 ######################
