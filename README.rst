@@ -91,6 +91,25 @@ Below is an example that reads ADC channels 0 and 1 from the Multitech Conduit G
               "module": "exoedge_mtcdt_gpio"
             }
           }
+        },
+        "ip_address": {
+          "display_name": "IP Address",
+          "description": "The IP Address of the gateway.",
+          "properties": {
+            "data_type": "STRING"
+          },
+          "protocol_config": {
+            "application": "ExoSimulator",
+            "report_on_change": true,
+            "app_specific_config": {
+              "function": "ip_address",
+              "module": "exo_simulator",
+              "parameters": {},
+              "positionals": [
+                "eth0"
+              ]
+            }
+          }
         }
       }
     }
