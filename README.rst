@@ -13,6 +13,16 @@ With `pip`
 
     pip install git+https://github.com/exosite/lib_exoedge_mtcdt_gpio_python.git
 
+Or
+
+.. code-block::
+
+    ./build.sh dev
+    scp dist/*.whl mtadm@192.168.254.50:/home/mtadm
+    ssh mtadm@192.168.254.50
+    sudo su
+    pip install /home/mtadm/*.whl
+
 From Source
 """"""""""""
 
